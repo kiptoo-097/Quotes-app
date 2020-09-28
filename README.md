@@ -1,6 +1,55 @@
-# Quotes
+#   q  Quotes App
+#### This project interlinks people who like quotes to create and to see other peoples quotes, 2020 
+#### By **Kiptoo Kennedy;
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
+## Description
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1
+
+## Project live site
+  This is the live .[ Click for the demo]()
+  <img src="src/assets/img.png" >
+
+  ![Image](src/assets/img.png)
+
+  ## Technologies Used
+* Figma- For Design (https://www.figma.com/file/KachkJHgfxYshL5tPXjodW/Quotes-App?node-id=0%3A1)
+* HTML-For Building Mark Up pages
+* CSS-For styling User Interface
+* Bootsrap-For making webpage responsive
+* Angular 10;
+* Typscript
+
+## Behavior Driven Development
+<table>
+    <tr>
+      <th>Behavior</th> 
+      <th>Input</th> 
+      <th>Output</th>   
+    </tr>
+    <tr>
+        <td>on load</td>
+        <td>scroll through </td>
+        <td>reveals more quotes</td>
+    </tr> 
+    <tr>
+        <td>On create quote enter details</td>
+        <td>['KIPTOO']</td>
+        <td>name = 'kENNEDY'</td>
+    </tr>
+    <tr>
+        <td>Enter quote and the Author</td>
+        <td>['Newton Law','gravity pulls down']</td>
+        <td>Author and quote</td>
+    </tr>
+    <tr>
+        <td>Save</td>
+        <td>Details</td>
+        <td>'Added to the quote list'</td>
+    </tr>
+       
+</table>
+
 
 ## Development server
 
@@ -21,6 +70,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Support and contact details
+contact me @ kiptoo097@gmailcom
+### License
+### [License](  https://kiptoo-097.github.io/Quotes-app/LICENSE.md)
+Copyright &copy; 2020.All rigths reserved
 
 ## Further help
 
