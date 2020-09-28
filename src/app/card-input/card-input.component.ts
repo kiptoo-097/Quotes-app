@@ -23,9 +23,9 @@ export class CardInputComponent implements OnInit {
   thumbsdown(i) {
     this.quotes[i].thumbsdown++
   }
-  // saveQuote(newQuote) {
-  //   this.quotes.unshift(newQuote);
-  // }
+  saveQuote(newQuote) {
+    this.quotes.unshift(newQuote);
+  }
   // delete(i){
   //   this.quotes.splice(i, 1);
   // }
