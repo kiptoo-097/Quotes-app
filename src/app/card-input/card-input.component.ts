@@ -20,9 +20,9 @@ export class CardInputComponent implements OnInit {
   thumbsup(i) {
     this.quotes[i].thumbsup++
   }
-  // thumbsdown(i) {
-  //   this.quotes[i].thumbsdown++
-  // }
+  thumbsdown(i) {
+    this.quotes[i].thumbsdown++
+  }
   // saveQuote(newQuote) {
   //   this.quotes.unshift(newQuote);
   // }
