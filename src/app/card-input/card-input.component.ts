@@ -17,9 +17,9 @@ export class CardInputComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  // thumbsup(i) {
-  //   this.quotes[i].thumbsup++
-  // }
+  thumbsup(i) {
+    this.quotes[i].thumbsup++
+  }
   // thumbsdown(i) {
   //   this.quotes[i].thumbsdown++
   // }
