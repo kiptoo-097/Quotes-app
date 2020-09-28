@@ -26,7 +26,7 @@ export class CardInputComponent implements OnInit {
   saveQuote(newQuote) {
     this.quotes.unshift(newQuote);
   }
-  // delete(i){
-  //   this.quotes.splice(i, 1);
-  // }
+  delete(i){
+    this.quotes.splice(i, 1);
+  }
 }
