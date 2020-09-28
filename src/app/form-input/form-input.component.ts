@@ -11,10 +11,10 @@ export class FormInputComponent implements OnInit {
   @Output() emitNewQuote = new EventEmitter<Quote>();
 
   
-  // submitQuote(){
-  //   this.emitNewQuote.emit(this.newQuote);
-  //   this.newQuote = new Quote("", "", "", "", new Date)
-  // }
+  submitQuote(){
+    this.emitNewQuote.emit(this.newQuote);
+    this.newQuote = new Quote("", "", "", "", new Date)
+  }
 
 
 
