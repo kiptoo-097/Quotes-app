@@ -10,8 +10,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   This is the live .[ Click for the demo]()
   <img src="src/assets/img.png" >
 
-  ![Image](src/assets/img.png)
-
   ## Technologies Used
 * Figma- For Design (https://www.figma.com/file/KachkJHgfxYshL5tPXjodW/Quotes-App?node-id=0%3A1)
 * HTML-For Building Mark Up pages
@@ -74,7 +72,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Support and contact details
 contact me @ kiptoo097@gmailcom
 ### License
-### [License](  https://kiptoo-097.github.io/Quotes-app/LICENSE.md)
+### [License](  https://kiptoo-097.github.io/LICENSE.md)
 Copyright &copy; 2020.All rigths reserved
 
 ## Further help
