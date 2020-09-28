@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardInputComponent } from './card-input/card-input.component';
 import { FormInputComponent } from './form-input/form-input.component';
+import { DateCountPipe } from './date-count.pipe';
 
 
 
@@ -14,6 +15,7 @@ import { FormInputComponent } from './form-input/form-input.component';
     AppComponent,
     CardInputComponent,
     FormInputComponent,
+    DateCountPipe,
   ],
   imports: [
     BrowserModule,
