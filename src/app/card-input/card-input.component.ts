@@ -12,11 +12,11 @@ export class CardInputComponent implements OnInit {
      new Quote('Kiptoo Kennedy','Education', ' Education is not preparation for life; education is life itself.', 'John Dewey', new Date(2020, 9, 21)),
     new Quote('Hakim','Education', 'Music expresses that which cannot be said and on which it is impossible to be silent.', 'Victor Hugo', new Date(2020, 9, 21)),
   ]
-  // i: number;
-  // constructor() { }
+  i: number;
+  constructor() { }
 
-  // ngOnInit(): void {
-  // }
+  ngOnInit(): void {
+  }
   // thumbsup(i) {
   //   this.quotes[i].thumbsup++
   // }
