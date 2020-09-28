@@ -1,21 +1,24 @@
-<div class="container-fluid">
-  <h1 class="headone bg-primary text-light text-center mt-5">Quotes</h1>
+<body class="bdy bg-seconday">
+<div class="container ">
+  <h1 class="headone bg-primary text-light text-center mt-5">Quotes App</h1>
   <div class="row">
-      <div class="col-md-4">
-        <app-form-input (emitNewQuote)="saveQuote($event)"></app-form-input>
-      </div>
-    <div class="col">
-      <div class="card"*ngFor="let quote of quotes; let i=index">
+    <div class="col-md-4">
+      <app-form-input (emitNewQuote)="saveQuote($event)"></app-form-input>
+    </div>
+    <div class="col-md-8 mt-3">
+      <div class="card" *ngFor="let quote of quotes; let i=index">
         <div class="card-header">
-          <h4>{{quote.name}}</h4>
+          <p>Posted by ;<b>{{quote.name}}</b></p>
         </div>
         <div class="card-body">
-          <h5 class="card-title">{{quote.title}}</h5>
-          <p class="card-text">{{quote.author}}</p>
-          <p class="card-text">{{quote.date}}</p>
+          <h5 class="card-title text-uppercase">
+            {{quote.title}}</h5>
+          <p>{{quote.quote}}</p>
+          <p class="card-text"> <b>Author</b> {{quote.author}}</p>
+          <p class="card-text">No of days: {{quote.date | dateCount}}</p>
           <div class="row">
             <div class="col-md-4">
-                <a (click)="thumbsup(i)"><i class="fas fa-thumbs-up"></i></a>{{quote.thumbsup}}
+              <a (click)="thumbsup(i)"><i class="fas fa-thumbs-up"></i></a>{{quote.thumbsup}}
             </div>
             <div class="col-md-4">
               <a (click)="thumbsdown(i)"><i class="fas fa-thumbs-down"></i></a>{{quote.thumbsdown}}
@@ -28,4 +31,5 @@
       </div>
     </div>
   </div>
-  </div>
+</div>
+</body>
