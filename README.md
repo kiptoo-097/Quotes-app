@@ -72,7 +72,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Support and contact details
 contact me @ kiptoo097@gmailcom
 ### License
-### [License](  https://kiptoo-097.github.io/Quotes-app/src/LICENSE.md)
+### [License]  <a href="/src/LICENSE.md">
 Copyright &copy; 2020.All rigths reserved
 
 ## Further help
