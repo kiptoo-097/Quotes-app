@@ -1,4 +1,4 @@
-#   q  Quotes App
+#  Quotes App
 #### This project interlinks people who like quotes to create and to see other peoples quotes, 2020 
 #### By **Kiptoo Kennedy;
 
@@ -32,12 +32,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     </tr> 
     <tr>
         <td>On create quote enter details</td>
-        <td>['KIPTOO']</td>
-        <td>name = 'kENNEDY'</td>
+        <td>KIPTOO</td>
+        <td>name = kENNEDY</td>
     </tr>
     <tr>
         <td>Enter quote and the Author</td>
-        <td>['Newton Law','gravity pulls down']</td>
+        <td>Newton Law','gravity pulls down</td>
         <td>Author and quote</td>
     </tr>
     <tr>
